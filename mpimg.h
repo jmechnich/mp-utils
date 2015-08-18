@@ -13,7 +13,7 @@ typedef struct _MP_PART
 {
 	char magic;
 	char padding[3];
-	char length[4];
+	uint32_t length;
 } MP_PART;
 
 typedef struct _MP_HEADER
